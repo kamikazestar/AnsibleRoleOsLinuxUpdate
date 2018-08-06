@@ -1,8 +1,7 @@
 AnsibleRoleOsLinuxUpdate
 =========
 
-This role will update Apt or Yum cache on Linux based operating systems.
-On Debian based operating systems this role will perform also safe upgrade.
+This role will update Apt cache on Debian based operating systems, and perform also safe upgrade.
 
 Requirements
 ------------

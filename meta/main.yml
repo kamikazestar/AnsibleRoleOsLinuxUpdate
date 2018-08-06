@@ -1,8 +1,7 @@
 galaxy_info:
   author: Marcin Slabonski
   description: >-
-    This role will update Apt or Yum cache on Linux based operating systems.
-    On Debian based operating systems this role will perform also safe upgrade.
+    This role will update Apt cache on Debian based operating systems, and perform also safe upgrade.
   company: None
 
   # If the issue tracker for your role is not on github, uncomment the
@@ -16,7 +15,7 @@ galaxy_info:
   # - GPLv3
   # - Apache
   # - CC-BY
-  license: BSD
+  license: MIT
 
   min_ansible_version: 1.2
 
@@ -46,9 +45,6 @@ galaxy_info:
   #   - 7
   #   - 99.99
   platforms:
-  - name: RedHat
-    versions:
-      - all
   - name: Debian
     versions:
       - all

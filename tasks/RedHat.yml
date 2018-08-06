@@ -1,5 +1,0 @@
----
-#tasks file for AnsibleRoleOsLinuxUpdate specyfic for RedHat based OS
-- name: Update cache
-  yum:
-    update_cache: yes
