@@ -3,5 +3,5 @@
 - name: Update cache and perform safe update of all packages
   apt:
     upgrade: safe
-    update_cache: yes
+    cache_update: yes
     cache_valid_time: 3600
