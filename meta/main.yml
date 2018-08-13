@@ -2,6 +2,7 @@ galaxy_info:
   author: Marcin Slabonski
   description: >-
     This role will update Apt cache on Debian based operating systems, and perform also safe upgrade.
+    Role is using apt safe-upgrade which means that it will upgrade currently installed packages and can install new packages to resolve new dependencies, but never removes packages.
   company: None
 
   # If the issue tracker for your role is not on github, uncomment the

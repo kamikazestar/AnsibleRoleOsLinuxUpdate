@@ -1,9 +1,7 @@
 ---
 #tasks file for AnsibleRoleOsLinuxUpdate specyfic for Debian based OS
-- name: Update cache
-  apt:
-    update_cache: yes
-    cache_valid_time: 3600
-- name: Perform safe update of all packages
+- name: Update cache and perform safe update of all packages
   apt:
     upgrade: safe
+    update_cache: yes
+    cache_valid_time: 3600
